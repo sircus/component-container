@@ -1,0 +1,30 @@
+
+// Converted Variables
+
+$Container-width-sm: 48rem !default;
+$Container-width-md: 60rem !default;
+$Container-width-lg: 70srem !default;
+
+// Custom Media Query Variables
+
+
+/*　sircus-components-container
+======================================== */
+
+.Container {
+  box-sizing:border-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Container--slim { max-width: $Container-width-sm; }
+
+@media #{$g-viewport-sm} {
+  .Container { width: $Container-width-sm; }
+}
+@media #{$g-viewport-md} {
+  .Container { width: $Container-width-md; }
+}
+@media #{$g-viewport-lg} {
+  .Container { width: $Container-width-lg; }
+}
