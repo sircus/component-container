@@ -16,11 +16,11 @@
 .Container--slim { max-width: var(--Container-width-sm); }
 
 @media (--g-viewport-sm) {
-  .Container { width: var(--Container-width-sm); }
+  .Container { max-width: var(--Container-width-sm); }
 }
 @media (--g-viewport-md) {
-  .Container { width: var(--Container-width-md); }
+  .Container { max-width: var(--Container-width-md); }
 }
 @media (--g-viewport-lg) {
-  .Container { width: var(--Container-width-lg); }
+  .Container { max-width: var(--Container-width-lg); }
 }

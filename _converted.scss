@@ -20,11 +20,11 @@ $Container-width-lg: 70rem !default;
 .Container--slim { max-width: $Container-width-sm; }
 
 @media #{$g-viewport-sm} {
-  .Container { width: $Container-width-sm; }
+  .Container { max-width: $Container-width-sm; }
 }
 @media #{$g-viewport-md} {
-  .Container { width: $Container-width-md; }
+  .Container { max-width: $Container-width-md; }
 }
 @media #{$g-viewport-lg} {
-  .Container { width: $Container-width-lg; }
+  .Container { max-width: $Container-width-lg; }
 }
