@@ -15,8 +15,6 @@ $Container-width-lg: 70rem !default;
   margin-left: auto;
 }
 
-.Container--slim { max-width: $Container-width-sm; }
-
 @media #{$g-viewport-sm} {
   .Container { max-width: $Container-width-sm; }
 }
@@ -26,3 +24,5 @@ $Container-width-lg: 70rem !default;
 @media #{$g-viewport-lg} {
   .Container { max-width: $Container-width-lg; }
 }
+
+.Container--slim { max-width: $Container-width-sm; }
