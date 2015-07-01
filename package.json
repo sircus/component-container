@@ -1,10 +1,10 @@
 {
   "name": "sircus-components-container",
-  "description": "css Container component Module for Sircus.",
-  "version": "0.0.1",
+  "description": "CSS module for the Sircus Container component.",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
+    "scalable",
     "design",
     "css",
     "cssnext",
