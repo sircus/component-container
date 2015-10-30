@@ -6,21 +6,30 @@
 
 /*　sircus-components-container
 ======================================== */
-
 .Container {
-  box-sizing:border-box;
+  box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (--g-viewport-sm) {
-  .Container { max-width: var(--Container-width-sm); }
-}
-@media (--g-viewport-md) {
-  .Container { max-width: var(--Container-width-md); }
-}
-@media (--g-viewport-lg) {
-  .Container { max-width: var(--Container-width-lg); }
+  .Container {
+    max-width: var(--Container-width-sm);
+  }
 }
 
-.Container--slim { max-width: var(--Container-width-sm); }
+@media (--g-viewport-md) {
+  .Container {
+    max-width: var(--Container-width-md);
+  }
+}
+
+@media (--g-viewport-lg) {
+  .Container {
+    max-width: var(--Container-width-lg);
+  }
+}
+
+.Container--slim {
+  max-width: var(--Container-width-sm);
+}
